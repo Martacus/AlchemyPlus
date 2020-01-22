@@ -1,6 +1,8 @@
 package com.mart.alchemyplus;
 
 import com.mart.alchemyplus.client.ClientProxy;
+import com.mart.alchemyplus.potion.ModEffects;
+import com.mart.alchemyplus.potion.ModPotions;
 import com.mart.alchemyplus.setup.IProxy;
 import com.mart.alchemyplus.setup.ModSetup;
 import com.mart.alchemyplus.setup.ServerProxy;
@@ -28,6 +30,9 @@ public class AlchemyPlus {
         // Register the setup method for mod loading
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         bus.addListener(this::setup);
+
+        ModPotions.init();
+        ModEffects.init();
     }
 
     private void setup(final FMLCommonSetupEvent event) {
