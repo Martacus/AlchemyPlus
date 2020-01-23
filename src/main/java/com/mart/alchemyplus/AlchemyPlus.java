@@ -27,17 +27,10 @@ public class AlchemyPlus {
     public static ModSetup setup = new ModSetup();
 
     public AlchemyPlus() {
-        // Register the setup method for mod loading
-        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-        bus.addListener(this::setup);
-
-        ModPotions.init();
         ModEffects.init();
+        ModPotions.init();
     }
 
-    private void setup(final FMLCommonSetupEvent event) {
-        setup.init();
-        proxy.setup();
-    }
+
 
 }
