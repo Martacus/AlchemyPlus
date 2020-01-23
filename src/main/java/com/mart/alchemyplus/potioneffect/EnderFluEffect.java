@@ -1,6 +1,6 @@
 package com.mart.alchemyplus.potioneffect;
 
-import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.potion.Effect;
 import net.minecraft.potion.EffectType;
 import net.minecraft.util.SoundCategory;
@@ -13,7 +13,7 @@ public class EnderFluEffect extends Effect {
         super(EffectType.NEUTRAL, 3080192);
     }
 
-    public static void act(PlayerEntity entity){
+    public static void act(LivingEntity entity){
         if (entity.world.isRemote) {
             return;
 

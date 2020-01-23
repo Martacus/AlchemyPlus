@@ -1,0 +1,11 @@
+{
+    "effect.alchemyplus.ender_flu": "Ender Flu",
+    "item.minecraft.potion.effect.ender_flu": "Potion of Ender Flu",
+    "item.minecraft.potion.effect.ender_flu_long": "Potion of Ender Flu",
+    "item.minecraft.splash_potion.effect.ender_flu": "Splash Potion of Ender Flu",
+    "item.minecraft.splash_potion.effect.ender_flu_long": "Splash Potion of Ender Flu",
+    "item.minecraft.lingering_potion.effect.ender_flu": "Lingering Potion of Ender Flu",
+    "item.minecraft.lingering_potion.effect.ender_flu_long": "Lingering Potion of Ender Flu",
+    "item.minecraft.tipped_arrow.effect.ender_flu": "Arrow of Ender Flu",
+    "item.minecraft.tipped_arrow.effect.ender_flu_long": "Arrow of Ender Flu"
+}
